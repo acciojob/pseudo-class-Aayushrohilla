@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+/* Main container styles */
+#container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: for better visibility of the container */
+}
+
+/* Pseudo-element to insert content before the container */
+#container::before {
+    content: "Special Text Before - "; /* Text before the container content */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size for the inserted content */
+}
+
+
+#container::after {
+    content: " - Special Text After"; 
+    color: #f00; 
+    font-size: 20px; 
+}
