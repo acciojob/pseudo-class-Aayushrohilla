@@ -9,7 +9,7 @@
   content: "Before element"; /* Inserted content before the container */
   color: #f00; /* Red color */
   font-size: 20px; /* Font size */
-  display: block; /* Ensure it is displayed as a block */
+  display: ; /* Ensure it is displayed as a block */
   margin-bottom: 10px; /* Space between the text and container */
 }
 
@@ -18,6 +18,6 @@
   content: "After Element"; /* Inserted content after the container */
   color: #f00; /* Red color */
   font-size: 20px; /* Font size */
-  display: block; /* Ensure it is displayed as a block */
+  display: ; /* Ensure it is displayed as a block */
   margin-top: 10px; /* Space between the container and the text */
 }
