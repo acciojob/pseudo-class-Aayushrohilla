@@ -4,20 +4,20 @@
   position: relative; /* Ensures the pseudo-elements are positioned relative to the container */
 }
 
-/* Pseudo-element before the container */
 #container::before {
-  content: "Before element"; /* Inserted content before the container */
-  color: #f00; /* Red color */
-  font-size: 20px; /* Font size */
-  display: ; /* Ensure it is displayed as a block */
-  margin-bottom: 10px; /* Space between the text and container */
+  content: "Before Element"; /* Corrected text case */
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
 }
+ 
 
 /* Pseudo-element after the container */
 #container::after {
   content: "After Element"; /* Inserted content after the container */
   color: #f00; /* Red color */
   font-size: 20px; /* Font size */
-  display: ; /* Ensure it is displayed as a block */
+  display:block ; /* Ensure it is displayed as a block */
   margin-top: 10px; /* Space between the container and the text */
 }
